@@ -22,6 +22,7 @@ end Decoder;
 
 architecture Behavioral of Decoder is
 begin
+
 res <= "00000001" when sel = "000" else
        "00000010" when sel = "001" else
        "00000100" when sel = "010" else
