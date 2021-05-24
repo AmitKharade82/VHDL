@@ -21,10 +21,10 @@ end comparator_TB;
 architecture Behavioral of comparator_TB is
 component comparator 
     port( A : in STD_LOGIC_VECTOR (03 downto 0);
-       B : in STD_LOGIC_VECTOR (03 downto 0);
-       AeqB : out STD_LOGIC;
-       AgtB : out STD_LOGIC;
-       AltB : out STD_LOGIC);
+       	  B : in STD_LOGIC_VECTOR (03 downto 0);
+          AeqB : out STD_LOGIC;
+          AgtB : out STD_LOGIC;
+          AltB : out STD_LOGIC);
  end component;       
     signal A : STD_LOGIC_VECTOR (03 downto 0);
     signal B : STD_LOGIC_VECTOR (03 downto 0);
