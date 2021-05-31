@@ -39,6 +39,6 @@ begin
         		elsif(clk'event and clk='1') then
         		Q <= Din;
         		Qnot <= not Din;
-        end  if;
-   end process;
+        	end  if;
+   	end process;
 end Behavioral;

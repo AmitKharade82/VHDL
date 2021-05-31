@@ -20,6 +20,7 @@ entity D_flipflop_tb is
 end D_flipflop_tb;
 
 architecture Behavioral of D_flipflop_tb is
+
 component D_flipflop is 
        Port (clk : in std_logic;
              rst : in std_logic;
