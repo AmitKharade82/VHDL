@@ -29,6 +29,7 @@ signal data_in :  STD_LOGIC_VECTOR (03 downto 0);
 signal parity_out :  STD_LOGIC ;
 
 begin
+
 utt: parity_gen port map(data_in => data_in,
                          parity_out => parity_out);
 

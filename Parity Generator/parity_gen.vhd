@@ -24,6 +24,6 @@ end parity_gen;
 architecture Behavioral of parity_gen is
 begin
 
-parity_out<= (data_in(0)xor data_in(1))xor (data_in(2)xor data_in(3));
+parity_out <= (data_in(0)xor data_in(1))xor (data_in(2)xor data_in(3));
 
 end Behavioral;
